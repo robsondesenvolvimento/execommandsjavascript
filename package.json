@@ -1,0 +1,19 @@
+{
+  "name": "backup",
+  "version": "1.0.0",
+  "description": "Programação de backup de informações e arquivos.",
+  "main": "index.js",
+  "scripts": {
+    "start-nodemon": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "Robson Candido dos Santos Alves <robson@zylix.com.br>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
